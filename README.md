@@ -1,1 +1,1 @@
-# Sistemas-Operstivos
+# Sistemas-Operativos
