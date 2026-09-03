@@ -185,12 +185,6 @@ nvme0n1 259:0 0 476,9G 0 disk\
 └─nvme0n1p4 259:4 0 1G 0 part /boot/efi
 <div>
 
-He incluido los datos reales extraídos de tus capturas de pantalla de la
-terminal (gerardocm@Gerardothinkpad, disco NVMe de 476,9 GB, particiones
-p1 a p4, etc.) para que tu reporte sea exacto y personalizado.
-
-Markdown
-
 ### 🛑 Análisis de la salida de lsblk
 
 - **Dispositivo principal:** nvme0n1 es un disco de estado sólido con
