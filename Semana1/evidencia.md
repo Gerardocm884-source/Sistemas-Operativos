@@ -168,7 +168,7 @@ diagnóstico, se ejecutaron los siguientes comandos:
 height="5.159cm"}
 
 Esto demuestra la distribución de Ubuntu (24.04 LTS), la arquitectura
-(*x86_64*) y tu usuario (*gerardocm*).
+(*x86_64*) y mi usuario (*gerardocm*).
 
 ## 
 
@@ -183,10 +183,6 @@ nvme0n1 259:0 0 476,9G 0 disk\
 ├─nvme0n1p2 259:2 0 521M 0 part\
 ├─nvme0n1p3 259:3 0 84,1G 0 part /\
 └─nvme0n1p4 259:4 0 1G 0 part /boot/efi
-
-Aquí tienes el contenido completo estructurado para tu archivo
-**diagnostico.md**.
-
 <div>
 
 He incluido los datos reales extraídos de tus capturas de pantalla de la
