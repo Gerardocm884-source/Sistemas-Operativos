@@ -22,5 +22,4 @@
 | **Nmap** | ☑ Exitoso ☐ Fallido |
 
 Evidencia1-VirtualBox
-
-![Evidencia 1](docs/img/Evidencia 1.png)
+![Evidencia 1 - VirtualBox](img/evidencia1.png)
