@@ -21,3 +21,5 @@
 | **Ping** | ☑ Exitoso ☐ Fallido |
 | **Nmap** | ☑ Exitoso ☐ Fallido |
 
+Evidencia1-VirtualBox
+![Evidencia 1 - VirtualBox](img/Evidencia 1.png)
