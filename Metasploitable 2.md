@@ -22,4 +22,4 @@
 | **Nmap** | ☑ Exitoso ☐ Fallido |
 
 Evidencia1-VirtualBox
-![Evidencia 1 - VirtualBox](img/evidencia1.png)
+![Image alt](https://github.com/Gerardocm884-source/Sistemas-Operativos/blob/18e11e0cf210b0a842cf2858dec5ab3995dbfe6d/Evidencia%201.png)
