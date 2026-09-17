@@ -23,5 +23,23 @@
 
 Evidencia1-VirtualBox
 ![Image alt](https://github.com/Gerardocm884-source/Sistemas-Operativos/blob/18e11e0cf210b0a842cf2858dec5ab3995dbfe6d/Evidencia%201.png)
+
 Evidencia 2-Configuración de red
 
+![Image alt](https://github.com/Gerardocm884-source/Sistemas-Operativos/blob/9d490c05103df8ddbebbf8b4c2e790bd7fcfbbd6/Evidencia%202.png)
+
+Evidencia 3-VMDK
+
+![Image alt](https://github.com/Gerardocm884-source/Sistemas-Operativos/blob/9d490c05103df8ddbebbf8b4c2e790bd7fcfbbd6/Evidencia3.png)
+
+Evidencia 4-IP
+
+![Image alt](https://github.com/Gerardocm884-source/Sistemas-Operativos/blob/9d490c05103df8ddbebbf8b4c2e790bd7fcfbbd6/Evidencia%204.png)
+
+Evidencia 5-Comunicacion
+
+![Image alt](https://github.com/Gerardocm884-source/Sistemas-Operativos/blob/9d490c05103df8ddbebbf8b4c2e790bd7fcfbbd6/Evidencia%205.png)
+
+Evidencia 6-Nmap
+
+![Image alt](https://github.com/Gerardocm884-source/Sistemas-Operativos/blob/9d490c05103df8ddbebbf8b4c2e790bd7fcfbbd6/Evidencia%206.png)
