@@ -228,6 +228,7 @@ Durante el escaneo de puertos se identificaron múltiples servicios expuestos en
 
 ## 📸 Índice de Evidencias (Capturas)
 * `04_ssh_acceso.png`: Conexión SSH exitosa a la máquina virtual (`192.168.56.101`)[cite: 1, 13, 17].
+* 
 * `06_whoami_id_groups.png`: Verificación de identidad (`msfadmin`, UID/GID 1000 y grupos)[cite: 1, 12, 17].
 * `07_passwd.png`: Lectura del archivo de cuentas del sistema `/etc/passwd`[cite: 1, 10, 11, 17].
 * `08_permisos.png`: Verificación de permisos de lectura pública en `/etc/passwd`[cite: 1, 9, 17].
@@ -289,7 +290,3 @@ Cualquier archivo o carpeta con permisos **`777`** (lectura, escritura y ejecuci
 | Permisos demasiado amplios en directorios clave | Modificación o eliminación de archivos de configuración por usuarios no autorizados | Auditar y corregir permisos usando `chmod` y `chown`[cite: 1, 5, 17]. | Media |
 | Binarios SUID innecesarios o mal configurados | Escalación de privilegios hacia `root` | Revisar la lista de archivos SUID y remover el bit si no es indispensable[cite: 1, 7, 17]. | Alta |
 | Múltiples servicios antiguos activos | Mayor superficie de ataque ante vulnerabilidades conocidas | Apagar todos los servicios que no se utilicen en la aplicación interna[cite: 1, 3, 17]. | Media |
-
-Evidencia1
-![Image alt](https://github.com/Gerardocm884-source/Sistemas-Operativos/blob/18e11e0cf210b0a842cf2858dec5ab3995dbfe6d/Evidencia1p2.png)
-
