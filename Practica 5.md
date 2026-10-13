@@ -31,24 +31,24 @@ Observar y administrar procesos de prueba en Ubuntu, identificando sus identific
 
 ## 📸 Índice de Evidencias
 * `01_sesion_uptime.png`: Consulta inicial de usuario, terminal y tiempo de actividad (`uptime`)[cite: 5].
-![Image alt]()
+![Image alt](https://github.com/Gerardocm884-source/Sistemas-Operativos/blob/3ba984dde25da9ea8dd0a894299f3335b88b7260/Evidencia%201.png)
 
 
 * `02_ps_aux.png`: Listado completo de procesos del sistema y búsqueda mediante `pgrep`[cite: 5].
-![Image alt]()
+![Image alt](https://github.com/Gerardocm884-source/Sistemas-Operativos/blob/3ba984dde25da9ea8dd0a894299f3335b88b7260/Evidencia%202.png)
 
 * `03_top.png`: Monitoreo dinámico de recursos en tiempo real[cite: 5].
-![Image alt]()
+![Image alt](https://github.com/Gerardocm884-source/Sistemas-Operativos/blob/3ba984dde25da9ea8dd0a894299f3335b88b7260/Evidencia%203.png)
 * 
 * `04_proceso_pid_ppid.png`: Creación del proceso `sleep` y consulta de sus identificadores PID y PPID[cite: 5].
-![Image alt]()
+![Image alt](https://github.com/Gerardocm884-source/Sistemas-Operativos/blob/3ba984dde25da9ea8dd0a894299f3335b88b7260/Evidencia%204.png)
 * 
 * `05_jobs.png`: Verificación de trabajos activos con `jobs -l`[cite: 5].
-![Image alt]()
+![Image alt](https://github.com/Gerardocm884-source/Sistemas-Operativos/blob/3ba984dde25da9ea8dd0a894299f3335b88b7260/Evidencia%205.png)
 * 
 * `06_prioridad_nice.png`: Consulta del valor de prioridad (`NI`) del proceso de prueba[cite: 5].
-![Image alt]()
+![Image alt](https://github.com/Gerardocm884-source/Sistemas-Operativos/blob/3ba984dde25da9ea8dd0a894299f3335b88b7260/Evidencia%206%20.png)
 
 * `07_terminacion_sigterm.png`: Envío de la señal de terminación `SIGTERM` y confirmación de su cierre[cite: 5].
-![Image alt]()
+![Image alt](https://github.com/Gerardocm884-source/Sistemas-Operativos/blob/3ba984dde25da9ea8dd0a894299f3335b88b7260/Evidencia%207.png)
 * 
