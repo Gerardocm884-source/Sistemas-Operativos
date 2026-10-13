@@ -227,17 +227,40 @@ Durante el escaneo de puertos se identificaron múltiples servicios expuestos en
 ---
 
 ## 📸 Índice de Evidencias (Capturas)
-* `04_ssh_acceso.png`: Conexión SSH exitosa a la máquina virtual (`192.168.56.101`)[cite: 1, 13, 17].
-* 
-* `06_whoami_id_groups.png`: Verificación de identidad (`msfadmin`, UID/GID 1000 y grupos)[cite: 1, 12, 17].
-* `07_passwd.png`: Lectura del archivo de cuentas del sistema `/etc/passwd`[cite: 1, 10, 11, 17].
-* `08_permisos.png`: Verificación de permisos de lectura pública en `/etc/passwd`[cite: 1, 9, 17].
-* `09_shadow.png`: Verificación de permisos protegidos en el archivo de contraseñas `/etc/shadow`[cite: 1, 8, 17].
-* `10_suid.png`: Resultados de la búsqueda de ejecutables con bit SUID activado[cite: 1, 6, 7, 16, 17].
-* `11_experimento_chmod.png`: Creación de carpeta de laboratorio y archivo con permisos estrictos (`600`)[cite: 1, 5, 17].
-* `12_grupo_usuario.png`: Creación y validación del usuario de prueba (`Gerardo`) y grupo de trabajo[cite: 1, 4, 14, 17].
+* `Evidencia 1
+* ![Image alt]https://github.com/Gerardocm884-source/Sistemas-Operativos/blob/bc76ffa846e8c495a225237dfef224d9d2bee03c/Evidencia%201p2.png
+* Evidencia 2
+* ![Image alt]https://github.com/Gerardocm884-source/Sistemas-Operativos/blob/bc76ffa846e8c495a225237dfef224d9d2bee03c/Evidencia%202p2.png
 
+* Evidencia 3
+* ![Image alt]https://github.com/Gerardocm884-source/Sistemas-Operativos/blob/bc76ffa846e8c495a225237dfef224d9d2bee03c/Evidencia%203p2.png
 
+* Evidencia 4
+* ![Image alt]https://github.com/Gerardocm884-source/Sistemas-Operativos/blob/bc76ffa846e8c495a225237dfef224d9d2bee03c/Evidencia%204p2.png
+
+* Evidencia 5
+* ![Image alt]https://github.com/Gerardocm884-source/Sistemas-Operativos/blob/bc76ffa846e8c495a225237dfef224d9d2bee03c/Evidencia%205p2.png
+
+* Evidencia 6
+* ![Image alt]https://github.com/Gerardocm884-source/Sistemas-Operativos/blob/bc76ffa846e8c495a225237dfef224d9d2bee03c/Evidencia6p2.png
+
+* Evidencia 7
+* ![Image alt]https://github.com/Gerardocm884-source/Sistemas-Operativos/blob/bc76ffa846e8c495a225237dfef224d9d2bee03c/Evidencia%207p2.png
+
+* Evidencia 8
+* ![Image alt]https://github.com/Gerardocm884-source/Sistemas-Operativos/blob/bc76ffa846e8c495a225237dfef224d9d2bee03c/Evidencia%208p2.png
+
+* Evidencia 9
+* ![Image alt]https://github.com/Gerardocm884-source/Sistemas-Operativos/blob/bc76ffa846e8c495a225237dfef224d9d2bee03c/Evidencia%209p2.png
+
+* Evidencia 10
+* ![Image alt]https://github.com/Gerardocm884-source/Sistemas-Operativos/blob/bc76ffa846e8c495a225237dfef224d9d2bee03c/Evidencia%2010p2%20.png
+
+* Evidencia 11
+* ![Image alt]https://github.com/Gerardocm884-source/Sistemas-Operativos/blob/bc76ffa846e8c495a225237dfef224d9d2bee03c/Evidencia%2011p2.png
+
+* Evidencia 12
+* ![Image alt]https://github.com/Gerardocm884-source/Sistemas-Operativos/blob/bc76ffa846e8c495a225237dfef224d9d2bee03c/Evidencia%2012p2%20.png
 
 # 🕵️ Informe de Incidente y Auditoría de Seguridad
 
