@@ -228,41 +228,41 @@ Durante el escaneo de puertos se identificaron múltiples servicios expuestos en
 
 ## 📸 Índice de Evidencias (Capturas)
 * `Evidencia 1
-* ![Image alt]https://github.com/Gerardocm884-source/Sistemas-Operativos/blob/bc76ffa846e8c495a225237dfef224d9d2bee03c/Evidencia%201p2.png
+* ![Image alt](https://github.com/Gerardocm884-source/Sistemas-Operativos/blob/bc76ffa846e8c495a225237dfef224d9d2bee03c/Evidencia%201p2.png)
 
   
 * Evidencia 2
-* ![Image alt]https://github.com/Gerardocm884-source/Sistemas-Operativos/blob/bc76ffa846e8c495a225237dfef224d9d2bee03c/Evidencia%202p2.png
+* ![Image alt](https://github.com/Gerardocm884-source/Sistemas-Operativos/blob/bc76ffa846e8c495a225237dfef224d9d2bee03c/Evidencia%202p2.png)
 
 * Evidencia 3
-* ![Image alt]https://github.com/Gerardocm884-source/Sistemas-Operativos/blob/bc76ffa846e8c495a225237dfef224d9d2bee03c/Evidencia%203p2.png
+* ![Image alt](https://github.com/Gerardocm884-source/Sistemas-Operativos/blob/bc76ffa846e8c495a225237dfef224d9d2bee03c/Evidencia%203p2.png)
 
 * Evidencia 4
-* ![Image alt]https://github.com/Gerardocm884-source/Sistemas-Operativos/blob/bc76ffa846e8c495a225237dfef224d9d2bee03c/Evidencia%204p2.png
+* ![Image alt](https://github.com/Gerardocm884-source/Sistemas-Operativos/blob/bc76ffa846e8c495a225237dfef224d9d2bee03c/Evidencia%204p2.png)
 
 * Evidencia 5
-* ![Image alt]https://github.com/Gerardocm884-source/Sistemas-Operativos/blob/bc76ffa846e8c495a225237dfef224d9d2bee03c/Evidencia%205p2.png
+* ![Image alt](https://github.com/Gerardocm884-source/Sistemas-Operativos/blob/bc76ffa846e8c495a225237dfef224d9d2bee03c/Evidencia%205p2.png)
 
 * Evidencia 6
-* ![Image alt]https://github.com/Gerardocm884-source/Sistemas-Operativos/blob/bc76ffa846e8c495a225237dfef224d9d2bee03c/Evidencia6p2.png
+* ![Image alt](https://github.com/Gerardocm884-source/Sistemas-Operativos/blob/bc76ffa846e8c495a225237dfef224d9d2bee03c/Evidencia6p2.png)
 
 * Evidencia 7
-* ![Image alt]https://github.com/Gerardocm884-source/Sistemas-Operativos/blob/bc76ffa846e8c495a225237dfef224d9d2bee03c/Evidencia%207p2.png
+* ![Image alt](https://github.com/Gerardocm884-source/Sistemas-Operativos/blob/bc76ffa846e8c495a225237dfef224d9d2bee03c/Evidencia%207p2.png)
 
 * Evidencia 8
-* ![Image alt]https://github.com/Gerardocm884-source/Sistemas-Operativos/blob/bc76ffa846e8c495a225237dfef224d9d2bee03c/Evidencia%208p2.png
+* ![Image alt](https://github.com/Gerardocm884-source/Sistemas-Operativos/blob/bc76ffa846e8c495a225237dfef224d9d2bee03c/Evidencia%208p2.png)
 
 * Evidencia 9
-* ![Image alt]https://github.com/Gerardocm884-source/Sistemas-Operativos/blob/bc76ffa846e8c495a225237dfef224d9d2bee03c/Evidencia%209p2.png
+* ![Image alt](https://github.com/Gerardocm884-source/Sistemas-Operativos/blob/bc76ffa846e8c495a225237dfef224d9d2bee03c/Evidencia%209p2.png)
 
 * Evidencia 10
-* ![Image alt]https://github.com/Gerardocm884-source/Sistemas-Operativos/blob/bc76ffa846e8c495a225237dfef224d9d2bee03c/Evidencia%2010p2%20.png
+* ![Image alt](https://github.com/Gerardocm884-source/Sistemas-Operativos/blob/bc76ffa846e8c495a225237dfef224d9d2bee03c/Evidencia%2010p2%20.png)
 
 * Evidencia 11
-* ![Image alt]https://github.com/Gerardocm884-source/Sistemas-Operativos/blob/bc76ffa846e8c495a225237dfef224d9d2bee03c/Evidencia%2011p2.png
+* ![Image alt](https://github.com/Gerardocm884-source/Sistemas-Operativos/blob/bc76ffa846e8c495a225237dfef224d9d2bee03c/Evidencia%2011p2.png)
 
 * Evidencia 12
-* ![Image alt]https://github.com/Gerardocm884-source/Sistemas-Operativos/blob/bc76ffa846e8c495a225237dfef224d9d2bee03c/Evidencia%2012p2%20.png
+* ![Image alt](https://github.com/Gerardocm884-source/Sistemas-Operativos/blob/bc76ffa846e8c495a225237dfef224d9d2bee03c/Evidencia%2012p2%20.png)
 
 # 🕵️ Informe de Incidente y Auditoría de Seguridad
 
