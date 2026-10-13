@@ -229,6 +229,8 @@ Durante el escaneo de puertos se identificaron múltiples servicios expuestos en
 ## 📸 Índice de Evidencias (Capturas)
 * `Evidencia 1
 * ![Image alt]https://github.com/Gerardocm884-source/Sistemas-Operativos/blob/bc76ffa846e8c495a225237dfef224d9d2bee03c/Evidencia%201p2.png
+
+  
 * Evidencia 2
 * ![Image alt]https://github.com/Gerardocm884-source/Sistemas-Operativos/blob/bc76ffa846e8c495a225237dfef224d9d2bee03c/Evidencia%202p2.png
 
