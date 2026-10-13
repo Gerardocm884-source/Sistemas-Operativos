@@ -34,7 +34,7 @@ Observar y administrar procesos de prueba en Ubuntu, identificando sus identific
 ![Image alt](https://github.com/Gerardocm884-source/Sistemas-Operativos/blob/3ba984dde25da9ea8dd0a894299f3335b88b7260/Evidencia%201.png)
 
 
-* `02_ps_aux.png`: Listado completo de procesos del sistema y búsqueda mediante `pgrep`[cite: 5].
+* `02_ps.png`: Listado completo de procesos del sistema y búsqueda mediante `pgrep`[cite: 5].
 ![Image alt](https://github.com/Gerardocm884-source/Sistemas-Operativos/blob/3ba984dde25da9ea8dd0a894299f3335b88b7260/Evidencia%202.png)
 
 * `03_top.png`: Monitoreo dinámico de recursos en tiempo real[cite: 5].
