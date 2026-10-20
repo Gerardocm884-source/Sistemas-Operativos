@@ -71,7 +71,7 @@ No existe espacio Swap configurado en el sistema. Las lecturas de SwapTotal y Sw
    ![Image alt](https://github.com/Gerardocm884-source/Sistemas-Operativos/blob/af28137fdb6d8ec188bb7c04be17aa1184e58ed2/Captura%205.png)
 
 
-   6. ¿La carga promedio debe interpretarse como un porcentaje?
+6. ¿La carga promedio debe interpretarse como un porcentaje?
 
 No, la carga promedio (load average) no es un porcentaje. Es un número que representa la cantidad promedio de procesos o hilos que están en estado ejecutable (usando CPU) o en espera no interrumpible (esperando operaciones de disco/entrada/salida) durante un intervalo de tiempo (1, 5 y 15 minutos).
 
