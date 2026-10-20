@@ -34,7 +34,7 @@ Analizar la gestión de memoria RAM, memoria virtual, swap y carga del sistema e
 - **Después:** Tras la finalización del proceso, la memoria y la carga retornaron a sus niveles iniciales sin variaciones apreciables.
 
 ## Diagnóstico
-Basado en las lecturas obtenidas (`free -h`, `vmstat` y `/proc/meminfo`), el equipo cuenta con suficiente memoria RAM disponible (~10.6 GiB libres) y los promedios de carga (0.73) están muy por debajo de la capacidad de procesamiento de los 8 núcleos lógicos del procesador. No se presentan signos de saturación ni cuellos de botella por falta de RAM.
+Basandome en las lecturas obtenidas (`free -h`, `vmstat` y `/proc/meminfo`), el equipo cuenta con suficiente memoria RAM disponible (~10.6 GiB libres) y los promedios de carga (0.73) están muy por debajo de la capacidad de procesamiento de los 8 núcleos lógicos del procesador. No se presentan signos de saturación ni cuellos de botella por falta de RAM.
 
 1. ¿Cuánta memoria está disponible, según free -h?
 
@@ -66,7 +66,7 @@ No existe espacio Swap configurado en el sistema. Las lecturas de SwapTotal y Sw
 
     so (Swap-Out): Representa la cantidad de memoria escrita/enviada desde la RAM física hacia la Swap por segundo (en KB/s).
 
-    En tu equipo, ambos valores permanecen en 0 porque no hay Swap configurada y hay suficiente RAM libre.
+    En mi equipo, ambos valores permanecen en 0 porque no hay Swap configurada y hay suficiente RAM libre.
 
    ![Image alt](https://github.com/Gerardocm884-source/Sistemas-Operativos/blob/af28137fdb6d8ec188bb7c04be17aa1184e58ed2/Captura%205.png)
 
