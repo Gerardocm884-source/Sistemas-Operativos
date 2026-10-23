@@ -89,7 +89,7 @@ Las capturas de pantalla de esta práctica se ubican en el directorio `evidencia
 
 
 * `evidencias/03_archivos_paquete.png`: Localización de archivos del paquete con `dpkg -L`.
-* ![Image alt](https://github.com/Gerardocm884-source/Sistemas-Operativos/blob/bb1355ceca049579724cb41609827d7aab8d20e6/Captura%20desde%202026-10-22%2009-31-51.png)
+* ![Image alt](https://github.com/Gerardocm884-source/Sistemas-Operativos/blob/c8e774e488cd7ccbe1fcd5e1aa57b721ce1ea774/Captura%20desde%202026-10-23%2008-39-28.png)
 
 
 * `evidencias/04_reconocimiento_servicios.png`: Escaneo de Nmap y reporte de servicios.
