@@ -81,15 +81,19 @@ Técnicamente puede saturar recursos o activar sistemas de defensa; ética y leg
 Las capturas de pantalla de esta práctica se ubican en el directorio `evidencias/`:
 
 * `evidencias/01_red_y_direcciones.png`: Redes e interfaces de Ubuntu y Metasploitable.
+* ![Image alt](https://github.com/Gerardocm884-source/Sistemas-Operativos/blob/8f525988a21d6eb88eae3d07fbf3210e749f097b/Captura%20desde%202026-10-22%2008-58-03.png)
 
 
 * `evidencias/02_paquete_nmap.png`: Verificación e instalación de Nmap.
+* ![IMage alt](https://github.com/Gerardocm884-source/Sistemas-Operativos/blob/bed547527d7e61000be90d2efd8ad8047164cf52/Captura%20desde%202026-10-22%2009-11-40.png)
 
 
 * `evidencias/03_archivos_paquete.png`: Localización de archivos del paquete con `dpkg -L`.
+* ![Image alt](https://github.com/Gerardocm884-source/Sistemas-Operativos/blob/bb1355ceca049579724cb41609827d7aab8d20e6/Captura%20desde%202026-10-22%2009-31-51.png)
 
 
 * `evidencias/04_reconocimiento_servicios.png`: Escaneo de Nmap y reporte de servicios.
+* ![Image alt](https://github.com/Gerardocm884-source/Sistemas-Operativos/blob/0573de1fbf47e38ad39d8d4e2064ab210dc6fb2f/Captura%20desde%202026-10-22%2009-40-49.png)
 
 
 
