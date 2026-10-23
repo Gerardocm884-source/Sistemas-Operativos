@@ -53,7 +53,8 @@ Administrar y localizar herramientas en Ubuntu mediante la gestión de paquetes,
 ## 📸 Registro de Evidencias
 Las capturas de pantalla de esta práctica se ubican en el directorio `evidencias/`:
 - `evidencias/01_red_y_direcciones.png`: Redes e interfaces de Ubuntu y Metasploitable.
-![Image alt](https://github.com/Gerardocm884-source/Sistemas-Operativos/blob/9f7667087447aae4cc015a22afa2bd533fe4cc11/Captura%20desde%202026-10-22%2008-58-03.png)
+
+![Image alt](https://github.com/Gerardocm884-source/Sistemas-Operativos/blob/483b66ef89169e0b4ca0d55a111ad4f2fffddef0/Captura%20desde%202026-10-22%2008-58-03.png)
 
 - `evidencias/02_paquete_nmap.png`: Verificación e instalación de Nmap.
 - `evidencias/03_archivos_paquete.png`: Localización de archivos del paquete con `dpkg -L`.
