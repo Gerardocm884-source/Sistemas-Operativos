@@ -1,21 +1,19 @@
-cat << 'EOF' > ~/SistemasOperativos/semana07/README.md
-# 🟡 Semana 07 — Paquetes y reconocimiento autorizado
-
-## Datos del alumno
+ 🟡 Semana 07 — Paquetes y reconocimiento autorizado
+Datos del alumno
 - Nombre: José Gerardo Cabrera Miranda
 - Grupo: 3° Semestre - Ingeniería en Sistemas Computacionales
 - Fecha: 2026-10-22
 
-## Entorno
+Entorno
 - Versión de Ubuntu: Ubuntu 24.04 LTS
 - Tipo de red virtual: Host-only (Aislada)
 - IP de Ubuntu en el laboratorio: Verificada localmente (`wlp5s0`)
 - IP confirmada de Metasploitable: Verificada en la red aislada del laboratorio
 
-## Objetivo
+Objetivo
 Administrar y localizar herramientas en Ubuntu mediante la gestión de paquetes, además de realizar un reconocimiento de puertos limitado contra una máquina de laboratorio autorizada.
 
-## Herramientas y Comandos Principales
+Herramientas y Comandos Principales
 | Comando | Propósito | Resultado observado |
 |---|---|---|
 | `apt show nmap` | Muestra detalles del paquete Nmap | Información de versión y dependencias |
@@ -24,7 +22,7 @@ Administrar y localizar herramientas en Ubuntu mediante la gestión de paquetes,
 | `nmap --top-ports 100` | Escaneo rápido de puertos comunes | Detección de puertos abiertos en Metasploitable |
 | `nmap -sV --top-ports 100` | Detección de versiones de servicios | Versiones estimadas de los servicios expuestos |
 
-## 📊 Inventario de Servicios (Reconocimiento Limitado)
+📊 Inventario de Servicios (Reconocimiento Limitado)
 | Puerto/protocolo | Estado informado | Servicio/versión detectados | ¿Qué se puede concluir? | ¿Qué falta verificar? |
 |---|---|---|---|---|
 | 21/tcp | Abierto | ProFTPD 1.3.1 | El servicio de transferencia de archivos está activo en el objetivo. | Verificar configuración de autenticación y si permite acceso anónimo. |
@@ -32,7 +30,7 @@ Administrar y localizar herramientas en Ubuntu mediante la gestión de paquetes,
 | 80/tcp | Abierto | Apache httpd 2.2.8 | El servidor web del sistema está operativo y respondiendo peticiones. | Investigar si aloja aplicaciones web vulnerables o directorios expuestos. |
 | 3306/tcp | Abierto | MySQL 5.0.51a | El servicio de base de datos está accesible en la red. | Comprobar si el usuario root tiene contraseña vacía o permisos remotos. |
 
-## 📝 Preguntas de Análisis Respondidas
+📝 Preguntas de Análisis Respondidas
 1. **¿Por qué conviene saber qué versión de Nmap está instalada?**
    Para conocer las capacidades de la herramienta, los scripts de análisis de vulnerabilidades soportados y asegurar la compatibilidad con los tipos de escaneo que se realizarán.
 2. **¿Qué diferencia existe entre `apt show` y `dpkg -s`?**
@@ -50,11 +48,11 @@ Administrar y localizar herramientas en Ubuntu mediante la gestión de paquetes,
 8. **¿Qué problema ético y técnico podría causar escanear una red que no fue autorizada?**
    Técnicamente puede saturar recursos o activar sistemas de defensa; ética y legalmente constituye una intromisión ilegítima y una violación de la privacidad y seguridad de sistemas ajenos.
  
-## 📸 Registro de Evidencias
+📸 Registro de Evidencias
 Las capturas de pantalla de esta práctica se ubican en el directorio `evidencias/`:
 - `evidencias/01_red_y_direcciones.png`: Redes e interfaces de Ubuntu y Metasploitable.
 
-![Image alt](https://github.com/Gerardocm884-source/Sistemas-Operativos/blob/483b66ef89169e0b4ca0d55a111ad4f2fffddef0/Captura%20desde%202026-10-22%2008-58-03.png)
+![Image alt](https://github.com/Gerardocm884-source/Sistemas-Operativos/blob/6a27a793b360c1453fbd3f660716a9b32110051f/Captura%20%206.png)
 
 - `evidencias/02_paquete_nmap.png`: Verificación e instalación de Nmap.
 - `evidencias/03_archivos_paquete.png`: Localización de archivos del paquete con `dpkg -L`.
