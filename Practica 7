@@ -49,11 +49,11 @@ Administrar y localizar herramientas en Ubuntu mediante la gestión de paquetes,
    Para garantizar que el análisis se ejecute exclusivamente sobre el equipo autorizado del laboratorio y evitar errores o impactos en dispositivos ajenos.
 8. **¿Qué problema ético y técnico podría causar escanear una red que no fue autorizada?**
    Técnicamente puede saturar recursos o activar sistemas de defensa; ética y legalmente constituye una intromisión ilegítima y una violación de la privacidad y seguridad de sistemas ajenos.
-
+ 
 ## 📸 Registro de Evidencias
 Las capturas de pantalla de esta práctica se ubican en el directorio `evidencias/`:
 - `evidencias/01_red_y_direcciones.png`: Redes e interfaces de Ubuntu y Metasploitable.
-![Image](https://github.com/Gerardocm884-source/Sistemas-Operativos/blob/9f7667087447aae4cc015a22afa2bd533fe4cc11/Captura%20desde%202026-10-22%2008-58-03.png)
+![Image alt](https://github.com/Gerardocm884-source/Sistemas-Operativos/blob/9f7667087447aae4cc015a22afa2bd533fe4cc11/Captura%20desde%202026-10-22%2008-58-03.png)
 
 - `evidencias/02_paquete_nmap.png`: Verificación e instalación de Nmap.
 - `evidencias/03_archivos_paquete.png`: Localización de archivos del paquete con `dpkg -L`.
