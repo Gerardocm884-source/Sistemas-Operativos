@@ -2,7 +2,7 @@
 
 ## 👤 Datos del alumno
 - Nombre: José Gerardo Cabrera Miranda
-- Grupo: 3° Semestre - Ingeniería en Sistemas Computacionales
+- Grupo: 5° Semestre - Ingeniería en Sistemas Computacionales
 - Fecha: 19 de octubre de 2026
 
 ## 💻 Entorno
