@@ -32,7 +32,8 @@ Las siguientes capturas se encuentran almacenadas en la carpeta `evidencias/` y 
 
 1. **`01_estado_general_y_unidades_fallidas.png`**  
    Verificación del estado general de systemd, tiempo activo y control de unidades fallidas (`uptime`, `who -b`, `systemctl is-system-running`, `systemctl --failed`)[cite: 4]
-![Image](https://github.com/Gerardocm884-source/Sistemas-Operativos/blob/9408010e2e5c9624f67f98de97ef4d6c149c62d2/Evi%201png.)
+
+![Image](https://github.com/Gerardocm884-source/Sistemas-Operativos/blob/765b8bdb5f949d85ffc50cfd6258447441921609/Evi%201png)
 
 3. **`02_estado_servicio.png`**  
    Consulta detallada del estado, actividad y habilitación del servicio seleccionado (`systemctl status`, `is-active`, `is-enabled`)[cite: 4].
