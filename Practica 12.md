@@ -32,14 +32,20 @@ Las siguientes capturas se encuentran almacenadas en la carpeta `semana12/eviden
 
 1. **`01_usuario_permisos_y_sockets.png`**  
    Verificación de identidad (`id`), permisos de directorios de trabajo y sockets en escucha (`sudo ss -lntup`).
-2. **`02_estado_ufw.png`**  
+   ![Image](https://github.com/Gerardocm884-source/Sistemas-Operativos/blob/05d4e9d482a484c9d59ec18e4f746f5a4414c645/EVI%201.png)
+3. **`02_estado_ufw.png`**  
    Consulta detallada del estado operativo del cortafuegos, políticas predeterminadas y reglas configuradas (`sudo ufw status verbose`, `sudo ufw status numbered`).
-3. **`03_diseno_politica_minima.png`**  
+   ![Image](https://github.com/Gerardocm884-source/Sistemas-Operativos/blob/1ff4084f2294c1fd6a2605c56607003021e88c56/EVI%202.png)
+5. **`03_diseno_politica_minima.png`**
    Diseño y planeación de una política de mínimos privilegios y servicios necesarios para el entorno.
-4. **`04_verificacion_reglas.png`**  
+   ![Image](https://github.com/Gerardocm884-source/Sistemas-Operativos/blob/3551eb2e26f1411b5ce75a037147f3feba723e2f/EVI%203.png)
+   ![Image](https://github.com/Gerardocm884-source/Sistemas-Operativos/blob/036284a16dc60c2cbbef5e6eb360b912814a46ff/EVI3.png)
+7. **`04_verificacion_reglas.png`**  
    Verificación del estado del firewall tras la revisión de reglas y políticas de seguridad.
-5. **`05_revision_final.png`**  
+   ![Image](https://github.com/Gerardocm884-source/Sistemas-Operativos/blob/2d75bbbe94db8d576cfe73ff6afaa5f62cbdd158/EVI%204.png)
+9. **`05_revision_final.png`**  
    Comprobación de la integridad, revisión de permisos y cierre de la auditoría de seguridad en el sistema operativo.
+   ![Image](https://github.com/Gerardocm884-source/Sistemas-Operativos/blob/845dd2df1bd17b6bc552bee41a2a786b6b5bc81f/EVI%205.png)
 
 ---
 
