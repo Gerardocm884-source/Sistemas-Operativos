@@ -31,13 +31,17 @@ Comprender cómo Ubuntu administra los servicios y el proceso de arranque median
 Las siguientes capturas se encuentran almacenadas en la carpeta `evidencias/` y respaldan la ejecución de los comandos:
 
 1. **`01_estado_general_y_unidades_fallidas.png`**  
-   Verificación del estado general de systemd, tiempo activo y control de unidades fallidas (`uptime`, `who -b`, `systemctl is-system-running`, `systemctl --failed`)[cite: 4].
-2. **`02_estado_servicio.png`**  
+   Verificación del estado general de systemd, tiempo activo y control de unidades fallidas (`uptime`, `who -b`, `systemctl is-system-running`, `systemctl --failed`)[cite: 4]
+![Image](https://github.com/Gerardocm884-source/Sistemas-Operativos/blob/9408010e2e5c9624f67f98de97ef4d6c149c62d2/Evi%201png.)
+3. **`02_estado_servicio.png`**  
    Consulta detallada del estado, actividad y habilitación del servicio seleccionado (`systemctl status`, `is-active`, `is-enabled`)[cite: 4].
-3. **`03_registros_servicio.png`**  
+![Image](https://github.com/Gerardocm884-source/Sistemas-Operativos/blob/30e19e7f7f8f012d93671641d7ddb34c1c26c13b/Evi%202.png)
+5. **`03_registros_servicio.png`**  
    Revisión de los mensajes y eventos recientes del servicio filtrados mediante el registro del sistema (`journalctl -u`)[cite: 4].
-4. **`05_dependencias_y_arranque.png`**  
-   Visualización del objetivo predeterminado de arranque y el árbol de dependencias de la unidad (`systemctl get-default`, `list-dependencies`)[cite: 4].
+   ![Image](https://github.com/Gerardocm884-source/Sistemas-Operativos/blob/fa92e56dd8f0b975c14212bfc4015977a06c145b/Captura%20desde%202026-11-05%2013-04-00.png)
+7. **`05_dependencias_y_arranque.png`**  
+   Visualización del objetivo predeterminado de arranque y el árbol de dependencias de la unidad (`systemctl get-default`, `list-dependencies`)[cite: 4]
+   ![Image](https://github.com/Gerardocm884-source/Sistemas-Operativos/blob/01135bf555a3955fcab51420c2a57633fa97c7ca/Captura%20desde%202026-11-05%2013-06-29.png).
 
 ---
 
