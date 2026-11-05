@@ -41,11 +41,17 @@
 ## 📸 Registro de Evidencias (Carpeta `semana14/evidencias/`)
 
 1. **`01_inventario_inicial.png`** — Inventario del sistema, kernel y almacenamiento (`uname -a`, `lsblk -f`, `df -h`).
-2. **`02_usuarios_permisos.png`** — Identidad de usuario, grupos y permisos del directorio de trabajo.
-3. **`03_paquetes.png`** — Consulta de paquetes instalados y estado con `dpkg`.
-4. **`04_estado_servicio.png`** — Estado, activación y arranque del servicio auditado (`systemctl`).
-5. **`05_red_sockets_firewall.png`** — Interfaces de red, rutas, sockets en escucha y estado de UFW.
-6. **`06_logs_y_verificacion.png`** — Consulta de registros en el journal y tabla final de comprobación.
+      ![Image](https://github.com/Gerardocm884-source/Sistemas-Operativos/blob/cc0b0b7d94abdb4119ad1c96860367d836547d90/Ev!dencia%201.png)
+3. **`02_usuarios_permisos.png`** — Identidad de usuario, grupos y permisos del directorio de trabajo.
+      ![Image](https://github.com/Gerardocm884-source/Sistemas-Operativos/blob/e68509e86166671366a396e357ac29ae35a83088/Ev!dencia%202.png)
+5. **`03_paquetes.png`** — Consulta de paquetes instalados y estado con `dpkg`.
+      ![Image](https://github.com/Gerardocm884-source/Sistemas-Operativos/blob/b401447771f2a0910fc2b777b35edb20d65d74b8/Ev!dencia%203.png)
+7. **`04_estado_servicio.png`** — Estado, activación y arranque del servicio auditado (`systemctl`).
+      ![Image](https://github.com/Gerardocm884-source/Sistemas-Operativos/blob/e1d0ac0135e05318b85e8df46c6a583c395ccc58/Ev!dencai%204.png)
+9. **`05_red_sockets_firewall.png`** — Interfaces de red, rutas, sockets en escucha y estado de UFW.
+       ![Image](https://github.com/Gerardocm884-source/Sistemas-Operativos/blob/5e02ecad1e8ead08de955563ab2907160da58daa/Ev!dencia%205.png)
+11. **`06_logs_y_verificacion.png`** — Consulta de registros en el journal y tabla final de comprobación.
+       ![Image](https://github.com/Gerardocm884-source/Sistemas-Operativos/blob/0b03ea4b5bd04b857c039beae440fc8650582789/Ev!dencia%206.png)
 
 ---
 
