@@ -40,13 +40,18 @@ Las siguientes capturas se encuentran almacenadas en la carpeta `evidencias/` y 
    
 5. **`03_dispositivos_pci.png`**  
    Consulta de componentes internos del bus PCI (`lspci -nn`) y filtrado específico para la red (`lspci | grep -i network`)[cite: 4, 8].
+   ![Image](https://github.com/Gerardocm884-source/Sistemas-Operativos/blob/39ba7341272a96549f27a5fbdb09a4de3d551019/Ev%203.png)
+   
 7. **`04_inventario_hardware.png`**  
    Resumen general del hardware del sistema utilizando `sudo lshw -short`[cite: 4, 8].
-8. **`05_red_lshw.png`**  
+   ![Image](https://github.com/Gerardocm884-source/Sistemas-Operativos/blob/39ba7341272a96549f27a5fbdb09a4de3d551019/Ev%204.png)
+9. **`05_red_lshw.png`**  
    Detalle de las interfaces de red de la laptop con `sudo lshw -class network`[cite: 4, 6].
-9. **`06_mensajes_kernel.png`**  
+   ![Image](https://github.com/Gerardocm884-source/Sistemas-Operativos/blob/f5cc6d1ee1af302d9044e069602558d632ab3646/Captura%20desde%202026-11-05%2008-03-29.png)
+   
+11. **`06_mensajes_kernel.png`**  
    Consulta de registros del kernel mediante `dmesg`, observando las políticas de restricción de permisos del sistema para usuarios estándar (*"fallo al leer el «buffer» del núcleo"*)[cite: 4, 5].
-
+![Image](https://github.com/Gerardocm884-source/Sistemas-Operativos/blob/f90ce0e14e4f4a07759571eac7abb7494afc5ece/Captura%20desde%202026-11-05%2008-08-29.png)
 ---
 
 ## 🧠 Preguntas de Análisis y Repaso
