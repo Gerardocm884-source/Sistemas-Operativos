@@ -32,15 +32,19 @@ Las siguientes capturas se encuentran almacenadas en la carpeta `evidencias/` y 
 
 1. **`01_sistema_y_almacenamiento.png`**  
    Verificación de la versión de Ubuntu (`cat /etc/os-release`), arquitectura del kernel (`uname -a`) y unidades de bloques (`lsblk -f`)[cite: 4].
-2. **`02_dispositivos_usb.png`**  
+   ![Image](https://github.com/Gerardocm884-source/Sistemas-Operativos/blob/2bab463f76153a1937d1e7d44ab8c9a810582bfa/Ev%201.png)
+   
+3. **`02_dispositivos_usb.png`**  
    Listado y topología en árbol de los puertos y dispositivos USB conectados al equipo (`lsusb` y `lsusb -t`)[cite: 4, 9].
-3. **`03_dispositivos_pci.png`**  
+   ![Image](https://github.com/Gerardocm884-source/Sistemas-Operativos/blob/a8f10edb366f4013edbd77c74cdf743dfa498eac/Ev%202.png)
+   
+5. **`03_dispositivos_pci.png`**  
    Consulta de componentes internos del bus PCI (`lspci -nn`) y filtrado específico para la red (`lspci | grep -i network`)[cite: 4, 8].
-4. **`04_inventario_hardware.png`**  
+7. **`04_inventario_hardware.png`**  
    Resumen general del hardware del sistema utilizando `sudo lshw -short`[cite: 4, 8].
-5. **`05_red_lshw.png`**  
+8. **`05_red_lshw.png`**  
    Detalle de las interfaces de red de la laptop con `sudo lshw -class network`[cite: 4, 6].
-6. **`06_mensajes_kernel.png`**  
+9. **`06_mensajes_kernel.png`**  
    Consulta de registros del kernel mediante `dmesg`, observando las políticas de restricción de permisos del sistema para usuarios estándar (*"fallo al leer el «buffer» del núcleo"*)[cite: 4, 5].
 
 ---
