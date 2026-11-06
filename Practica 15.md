@@ -11,7 +11,7 @@ Demostrar la capacidad de administrar, diagnosticar e inspeccionar un entorno co
 
 ---
 
-## 🧭 Fase 1 · Reconocimiento del sistema
+## 🧭 FReconocimiento del sistema
 
 ### Comandos ejecutados
 ```bash
@@ -23,7 +23,7 @@ date
 uname -m
 ```
 
-### Respuestas e interpretación
+### Respuestas 
 1. **¿Qué distribución y versión de Ubuntu utilizas?**  
    Ubuntu 26.04.1 LTS (Resolute Raccoon).
 2. **¿Qué información aporta `uname -a`?**  
@@ -37,7 +37,7 @@ uname -m
 
 ---
 
-## 💽 Fase 2 · Almacenamiento y sistema de archivos
+## 💽 Almacenamiento y sistema de archivos
 
 ### Comandos ejecutados
 ```bash
@@ -48,7 +48,7 @@ findmnt
 du -sh ~
 ```
 
-### Respuestas e interpretación
+### Respuestas 
 1. **¿Qué dispositivos y particiones aparecen?**  
    Muestra la unidad de disco principal (SSD/HDD) identificada con sus correspondientes particiones de arranque EFI y la partición raíz de Linux.
 2. **¿Cuál es el punto de montaje de la raíz (`/`)?**  
@@ -62,7 +62,7 @@ du -sh ~
 
 ---
 
-## 👤 Fase 3 · Usuarios, grupos y permisos
+## 👤 Usuarios, grupos y permisos
 
 ### Comandos ejecutados
 ```bash
@@ -77,7 +77,7 @@ ls -l archivo_prueba.txt
 stat archivo_prueba.txt
 ```
 
-### Respuestas e interpretación
+### Respuestas 
 1. **¿Cuál es tu UID y GID?**  
    El UID (User ID) es `1000` (`gerardocm`) y el GID (Group ID) principal es `1000` (`gerardocm`).
 2. **¿A qué grupos perteneces?**  
@@ -93,7 +93,7 @@ stat archivo_prueba.txt
 
 ---
 
-## ⚙️ Fase 4 · Procesos y recursos del sistema
+## ⚙️ Procesos y recursos del sistema
 
 ### Comandos ejecutados
 ```bash
@@ -104,7 +104,7 @@ uptime
 top
 ```
 
-### Respuestas e interpretación
+### Respuestas
 1. **¿Qué información identifica un PID?**  
    El PID (*Process ID*) es el identificador numérico único asignado por el kernel de Linux a cada proceso en ejecución dentro del sistema.
 2. **¿Qué proceso aparece usando más CPU en la consulta realizada?**  
@@ -120,7 +120,7 @@ top
 
 ---
 
-## 📦 Fase 5 · Paquetes y software instalado
+## 📦 Paquetes y software instalado
 
 ### Comandos ejecutados
 ```bash
@@ -130,7 +130,7 @@ apt show bash
 apt list --upgradable
 ```
 
-### Respuestas e interpretación
+### Respuestas 
 1. **¿Qué diferencia existe entre `apt` y `dpkg`?**  
    `dpkg` es la herramienta de bajo nivel que gestiona la instalación/remoción directa de archivos `.deb` individuales sin resolver dependencias; mientras que `apt` es el gestor de alto nivel que descarga paquetes desde repositorios remotos y resuelve dependencias de forma automática.
 2. **¿Qué información encontraste sobre el paquete `bash`?**  
@@ -142,7 +142,7 @@ apt list --upgradable
 
 ---
 
-## ⚡ Fase 6 · Servicios del sistema
+## ⚡ Servicios del sistema
 
 ### Comandos ejecutados
 ```bash
@@ -152,7 +152,7 @@ systemctl status cron --no-pager
 journalctl -u cron -n 30 --no-pager
 ```
 
-### Respuestas e interpretación
+### Respuestas 
 1. **¿Qué diferencia hay entre un servicio activo y uno habilitado?**  
    - **Activo (*running*):** El servicio se está ejecutando en la memoria RAM en este momento.
    - **Habilitado (*enabled*):** El servicio está configurado para iniciar automáticamente cada vez que el sistema operativo encienda.
@@ -167,7 +167,7 @@ journalctl -u cron -n 30 --no-pager
 
 ---
 
-## 🌐 Fase 7 · Red, conexiones y puertos
+## 🌐 Red, conexiones y puertos
 
 ### Comandos ejecutados
 ```bash
@@ -178,7 +178,7 @@ ping -c 4 1.1.1.1
 ss -tuln
 ```
 
-### Respuestas e interpretación
+### Respuestas 
 1. **¿Qué interfaces aparecen y cuál tiene una dirección IP asignada?**  
    Aparece `lo` (interfaz de loopback `127.0.0.1`) y la interfaz física Ethernet configurada localmente con la IP asignada por la red.
 2. **¿Qué función cumple la ruta predeterminada (*default gateway*)?**  
@@ -192,7 +192,7 @@ ss -tuln
 
 ---
 
-## 🛡️ Fase 8 · Firewall y revisión básica de seguridad
+## 🛡️ Firewall y revisión básica de seguridad
 
 ### Comandos ejecutados
 ```bash
@@ -200,7 +200,7 @@ sudo ufw status verbose
 ss -tuln
 ```
 
-### Respuestas e interpretación
+### Respuestas
 1. **¿Está activo UFW?**  
    Muestra el estado reportado por `sudo ufw status verbose` (`active` o `inactive`).
 2. **¿Qué política predeterminada y reglas se muestran?**  
@@ -214,7 +214,7 @@ ss -tuln
 
 ---
 
-## 📝 Fase 9 · Logs y diagnóstico
+## 📝 Logs y diagnóstico
 
 ### Comandos ejecutados
 ```bash
@@ -241,17 +241,30 @@ sudo dmesg | grep -iE 'error|fail|warn' | tail -n 30
 
 ---
 
-## 📋 Resumen de Evidencias Capturadas (Carpeta `semana15/evidencias/`)
+## 📋Evidencias 
 
-| Archivo | Fase / Descripción | Comandos demostrados |
 |---|---|---|
-| `01_reconocimiento.png` | **Fase 1:** Reconocimiento del sistema | `cat /etc/os-release`, `uname -a`, `uptime` |
-| `02_almacenamiento.png` | **Fase 2:** Discos y almacenamiento | `lsblk`, `df -hT` |
-| `03_usuarios_permisos.png` | **Fase 3:** Identidad y permisos | `id`, `ls -l archivo_prueba.txt` (`640`) |
-| `04_procesos_recursos.png` | **Fase 4:** Recursos y procesos | `ps -eo ... --sort=-%cpu`, `free -h` |
-| `05_paquetes_servicios.png` | **Fases 5 y 6:** Paquetes y servicios | `dpkg -s bash`, `systemctl status cron` |
-| `06_red_firewall.png` | **Fases 7 y 8:** Red, sockets y UFW | `ip addr`, `ss -tuln`, `sudo ufw status verbose` |
-| `07_logs_diagnostico.png` | **Fase 9:** Logs y diagnóstico | `journalctl -u cron`, `dmesg` |
+| `01_reconocimiento.png` | Reconocimiento del sistema | `cat /etc/os-release`, `uname -a`, `uptime` |
+
+![Image](https://github.com/Gerardocm884-source/Sistemas-Operativos/blob/97ecb44d07e9f33330aa55dc0f0d8ae7bfe316c4/Evdencia%201.png)
+| `02_almacenamiento.png` | Discos y almacenamiento | `lsblk`, `df -hT` |
+![Image](https://github.com/Gerardocm884-source/Sistemas-Operativos/blob/9fc2af22ed662f71dfe7bd92fc849f4221abb654/Evdencia%202.png)
+
+| `03_usuarios_permisos.png` | Identidad y permisos | `id`, `ls -l archivo_prueba.txt` (`640`) |
+![Image](https://github.com/Gerardocm884-source/Sistemas-Operativos/blob/c69616e686f0d45fb94c54431f7e950a7819d57a/Evdencia%203.png)
+
+| `04_procesos_recursos.png` | Recursos y procesos | `ps -eo ... --sort=-%cpu`, `free -h` |
+![Image](https://github.com/Gerardocm884-source/Sistemas-Operativos/blob/711e39cff06a355999447bb648f34fc925d90264/Evdencia%204.png)
+
+| `05_paquetes_servicios.png` | Paquetes y servicios | `dpkg -s bash`, `systemctl status cron` |
+![Image](https://github.com/Gerardocm884-source/Sistemas-Operativos/blob/6d7e7939e7f8b2be5f92adcf79ddbbbd995af03a/Evdencia%205.png)
+
+| `06_red_firewall.png` |  Red, sockets y UFW | `ip addr`, `ss -tuln`, `sudo ufw status verbose` |
+![Image](https://github.com/Gerardocm884-source/Sistemas-Operativos/blob/7ea35b966ec4bcea21dec8b815d3283783f0af47/Evdencia%206.png)
+
+| `07_logs_diagnostico.png` | Logs y diagnóstico | `journalctl -u cron`, `dmesg` |
+![Image](https://github.com/Gerardocm884-source/Sistemas-Operativos/blob/663f1cfe3ce54e5cb01654063b1d157e133128bd/Evdencia%207.png)
+
 
 ---
 
